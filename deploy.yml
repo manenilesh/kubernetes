@@ -15,7 +15,7 @@ spec:
           image: nginx
           ports:
             - containerPort: 80
-  replicas: 3
+  replicas: 0
   selector:
     matchLabels:
       app: my-deploy-1
