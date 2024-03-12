@@ -3,3 +3,4 @@ kind: ReplicationController
 metadata:
   name: my-rc-1
   labels: 
+    
