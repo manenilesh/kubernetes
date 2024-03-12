@@ -8,6 +8,6 @@ metadata:
 spec:
   template:
     metadata:
-      name: 
-      app: my-deploy
-      la
+      labels: 
+        app: my-deploy
+      namsp
