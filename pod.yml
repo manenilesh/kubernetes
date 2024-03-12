@@ -4,7 +4,7 @@ metadata:
   name: my-pod-1
   labels:
     app: my-pod-1
-  namespace: 
+  namespace: ns-demo
 spec:
   containers:
   - name: nginx
