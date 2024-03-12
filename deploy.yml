@@ -6,7 +6,7 @@ metadata:
     app: my-deploy
   namespace: ns-demo
 spec:
-  template:
+    template:
     metadata:
       labels: 
         app: my-deploy
