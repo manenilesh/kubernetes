@@ -25,3 +25,5 @@ spec:
         app: my-deploy
     strategy:
       type: RollingUpdate
+
+
