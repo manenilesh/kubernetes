@@ -11,4 +11,4 @@ spec:
         app: my-pod-2
     spec:
       containers:
-        - 
+        - name: my-po
