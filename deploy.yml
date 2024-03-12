@@ -4,5 +4,6 @@ metadata:
   name: myapp
   labels:
     app: my-deploy-1
+  nm
 spec:
 
