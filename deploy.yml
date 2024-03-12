@@ -15,4 +15,7 @@ spec:
       containers:
         - name: my-deploy
           image: nginx
-          
+          ports:
+          - name:  Port Name
+            containerPort:port:  Port
+            protocol: TCP
