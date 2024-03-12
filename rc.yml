@@ -9,7 +9,7 @@ spec:
     metadata:
       labels:
         app: my-pod-1
-      nam
+      namespace: nsd
     spec:
       containers:
         - name: my-pod-1
