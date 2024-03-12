@@ -11,4 +11,4 @@ spec:
       targetPort: 9376
 
   selector:
-    app: my-app
+    app: my-pod-1
