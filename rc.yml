@@ -18,5 +18,7 @@ spec:
             port:  80
             protocol: TCP
     
-    replicas
+    replicas: 3
+    selector:
+      
       
