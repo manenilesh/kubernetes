@@ -13,5 +13,8 @@ spec:
       containers:
         - name: my-pod-1
           image: httpd
-          
+          ports:
+          - name:  Port Name
+            port:  Port
+            protocol: TCP
       
