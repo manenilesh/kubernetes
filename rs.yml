@@ -11,7 +11,7 @@ spec:
         app: my-rs-1
     spec:
       containers:
-      - name: my-po
+      - name: my-pod-1
         image: nginx
         ports:
           - name: http
@@ -19,5 +19,5 @@ spec:
             containerPort: 80
   replicas: 3
   selector:
-    # matchLabels:
+    matchLabels:
     #   app: cbz-app
