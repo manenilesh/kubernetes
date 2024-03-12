@@ -13,9 +13,9 @@ spec:
     spec:
       containers:
         - name: my-pod-1
-          image: httpd
+          image: nginx
           ports:
-            - name: http
+            - name: nginx
               protocol: TCP
               containerPort: 80
   replicas: 3
