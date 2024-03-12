@@ -7,4 +7,5 @@ metadata:
 spec:
   template:
     metadata:
-      n
+      labels:
+        
