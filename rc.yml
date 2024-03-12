@@ -9,6 +9,7 @@ spec:
     metadata:
       labels:
         app: my-pod-1
+      nam
     spec:
       containers:
         - name: my-pod-1
