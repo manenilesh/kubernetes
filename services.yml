@@ -6,6 +6,5 @@ metadata:
 spec:
   type: NodePort
   ports:
-  -
-   port: <Port>
+  - port: <Port>
     targetPort: <Target Port>
