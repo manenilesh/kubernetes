@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: ReplicaSet
-metadata: 
+metadata:
   name: my-rs-1
   labels:
     app: my-rs-1
@@ -12,11 +12,11 @@ spec:
     spec:
       containers:
         - name: my-pod-2
-          image:  nginx
+          image: nginx
           ports:
-          - name:  nginx
-            containerPort: 80
-            protocol: TCP
+            - name: nginx
+              containerPort: 80
+              protocol: TCP
       replicas: 2
       selector:
         matchLabels:
