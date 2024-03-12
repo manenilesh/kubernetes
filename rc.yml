@@ -9,4 +9,6 @@ spec:
     metadata:
       labels: 
         app: my-pod-1
+    spec:
+      
       
