@@ -3,9 +3,10 @@ kind: Deployment
 metadata:
   name: myapp
   labels:
-    app: my-deploy-1
+    app: my-deploy
   namespace: ns-demo
 spec:
   template:
     metadata:
-      name: my-dep
+      name: my-deploy
+      
