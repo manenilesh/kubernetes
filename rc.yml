@@ -12,5 +12,5 @@ spec:
     spec:
       containers:
         - name: my-pod-1
-          image:  registry
+          image:  registry/user/image
       
