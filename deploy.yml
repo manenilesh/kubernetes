@@ -8,7 +8,7 @@ metadata:
 spec:
   template:
     metadata:
-      labels: 
+      labels:
         app: my-deploy
       namespace: ns-demo
     spec:
@@ -16,13 +16,10 @@ spec:
         - name: my-deploy
           image: nginx
           ports:
-          - name: nginx
-            containerPort: 80
-            protocol: TCP
+            - name: nginx
+              containerPort: 80
+              protocol: TCP
     replicas: 3
     selector:
       matchLabels:
-        strategy:
-          rollingUpdate:
-            type: RollingUpdate
-      
+        strategy: rollingUpdate
