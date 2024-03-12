@@ -17,5 +17,5 @@ spec:
           - name:  nginx
             containerPort: 80
             protocol: TCP
-      replicas:
-        
+      replicas: 2
+      sel
