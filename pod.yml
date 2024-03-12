@@ -4,8 +4,7 @@ metadata:
   name: my-app
   labels:
     app: my-app
-# namespace: frontend
-
+  #namespace: frontend
 spec:
   containers:
     - name: my-app
