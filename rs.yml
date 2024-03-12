@@ -8,10 +8,10 @@ spec:
   template:
     metadata:
       labels:
-        app: cbz-app
+        app: my-rs-1
     spec:
       containers:
-      - name: my-app
+      - name: my-po
         image: nginx
         ports:
           - name: http
