@@ -4,6 +4,7 @@ metadata:
   name: my-svc
   namespace: ns1
 spec:
+  type: Node
   ports:
   - port: <Port>
     targetPort: <Target Port>
