@@ -12,3 +12,5 @@ spec:
         app: my-deploy
       namespace: ns-demo
     spec:
+      containers:
+        - name: 
