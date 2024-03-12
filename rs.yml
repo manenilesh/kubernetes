@@ -13,3 +13,7 @@ spec:
       containers:
         - name: my-pod-2
           image:  nginx
+          ports:
+          - name:  Port Name
+            containerPort: 0:  Port
+            protocol: TCP
