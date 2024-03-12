@@ -10,4 +10,5 @@ spec:
     metadata:
       labels: 
         app: my-deploy
-      namsp
+      namespace: ns-demo
+    spec:
