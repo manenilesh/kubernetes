@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: my-pod-1
-      image: nileshmane912/docker-repo:tomcatimage
+      image: httpd
       ports:
         - containerPort: 80
