@@ -20,5 +20,6 @@ spec:
             containerPort: 80
             protocol: TCP
     replicas: 3
-    sele
+    selector:
+      match
       
