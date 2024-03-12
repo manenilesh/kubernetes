@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: my-pod-1
-          image: nginx
+          image: httpd
           ports:
             - name: http
               protocol: TCP
