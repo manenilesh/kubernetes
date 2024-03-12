@@ -18,7 +18,7 @@ spec:
             - name: nginx
               protocol: TCP
               containerPort: 80
-  replicas: 2
+  replicas: 0
   selector:
     matchLabels:
       app: my-rs-1
