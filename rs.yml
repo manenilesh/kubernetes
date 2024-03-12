@@ -9,7 +9,7 @@ spec:
     metadata:
       labels:
         app: my-rs-1
-      
+      namespace: 
     spec:
       containers:
         - name: my-pod-1
