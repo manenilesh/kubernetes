@@ -10,7 +10,6 @@ spec:
     metadata:
       labels:
         app: my-deploy
-      namespace: ns-demo
     spec:
       containers:
         - name: my-deploy
