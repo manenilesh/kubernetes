@@ -4,6 +4,10 @@ metadata:
   name: nginx
   labels:
     app: my-app
+  apiVersion: v1
+  kind: Namespace
+  metadata:
+    name:  name
 spec:
   containers:
   - name: nginx
