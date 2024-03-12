@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: my-rs
+  name: my-rs-1
   labels:
-    app: cbz-app
+    app: my-rs-1
 spec: 
   template:
     metadata:
