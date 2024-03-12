@@ -4,4 +4,4 @@ metadata:
   name: my-rc-1
   labels: 
     app: my-rc-1
-  
+    
