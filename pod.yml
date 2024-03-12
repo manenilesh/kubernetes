@@ -4,7 +4,7 @@ metadata:
   name: my-app
   labels:
     app: my-app
-  namespace: ns1
+  namespace: frontend
 spec:
   containers:
     - name: my-app
