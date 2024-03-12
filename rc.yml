@@ -6,6 +6,7 @@ metadata:
     app: my-rc-1
 spec:
   template:
+    
     labels: 
       app: my-pod-1
     
