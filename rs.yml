@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
   name: my-rs-1
   labels:
-    app: my-rs-1
+    app: 
 spec:
   template:
     metadata:
