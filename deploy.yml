@@ -3,24 +3,21 @@ kind: Deployment
 metadata:
   name: my-deploy-1
   labels:
-    app: my-deploy
-  namespace: ns-demo
+    app: xyz-app
 spec:
   template:
     metadata:
       labels:
-        app: my-deploy
+        app: xyz-app
     spec:
       containers:
-        - name: my-deploy
+        - name: xyz-app
           image: nginx
           ports:
-            - name: nginx
-              containerPort: 80
-              protocol: TCP
-    replicas: 3
-    selector:
-      matchLabels:
-        app: my-deploy
-    strategy:
-      type: RollingUpdate
+            - containerPort: 80
+  replicas: 3
+  selector:
+    matchLabels:
+      app: xyz-app
+  strategy:
+    type: RollingUpdate
