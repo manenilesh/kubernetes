@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deploy-1
+  name: my-deployment-1
   labels:
-    app: xyz-app
+    app: my-dep
 spec:
   template:
     metadata:
