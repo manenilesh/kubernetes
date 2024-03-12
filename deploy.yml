@@ -3,6 +3,6 @@ kind: Deployment
 metadata:
   name: myapp
   labels:
-    app: 
+    app: my-deploy-1
 spec:
 
