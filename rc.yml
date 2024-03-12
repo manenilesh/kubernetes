@@ -7,4 +7,5 @@ metadata:
 spec:
   template:
     labels: 
-      app: my
+      app: my-pod-1
+    
