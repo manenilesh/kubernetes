@@ -21,5 +21,6 @@ spec:
             protocol: TCP
     replicas: 3
     selector:
-      match
+      matchLabels:
+        
       
