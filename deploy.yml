@@ -8,10 +8,10 @@ spec:
   template:
     metadata:
       labels:
-        app: xyz-app
+        app: my-deploy-1
     spec:
       containers:
-        - name: xyz-app
+        - name: my-deploy-1
           image: nginx
           ports:
             - containerPort: 80
