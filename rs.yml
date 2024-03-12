@@ -4,20 +4,20 @@ metadata:
   name: my-rs-1
   labels:
     app: my-rs-1
-spec: 
+spec:
   template:
     metadata:
       labels:
         app: my-rs-1
     spec:
       containers:
-      - name: my-pod-1
-        image: nginx
-        ports:
-          - name: http
-            protocol: TCP
-            containerPort: 80
-  replicas: 3
+        - name: my-pod-1
+          image: nginx
+          ports:
+            - name: http
+              protocol: TCP
+              containerPort: 80
+  replicas: 2
   selector:
     matchLabels:
       app: my-rs-1
