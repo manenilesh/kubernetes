@@ -6,18 +6,17 @@ metadata:
     app: my-deploy
   namespace: ns-demo
 spec:
-    template:
-      metadata:
-        labels: 
-          app: my-deploy
-        namespace: ns-demo
-      spec:
-        containers:
-          - name: my-deploy
-            image: nginx
-            ports:
-            - name: nginx
-              containerPort: 80
-              protocol: TCP
-              
+  template:
+    metadata:
+      labels: 
+        app: my-deploy
+      namespace: ns-demo
+    spec:
+      containers:
+        - name: my-deploy
+          image: nginx
+          ports:
+          - name: nginx
+            containerPort: 80
+            protocol: TCP
       
