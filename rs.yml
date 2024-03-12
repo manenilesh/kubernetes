@@ -3,4 +3,4 @@ kind: ReplicaSet
 metadata: 
   name: my-rs-1
   labels:
-    app: my
+    app: my-rs-1
