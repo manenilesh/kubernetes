@@ -13,4 +13,5 @@ spec:
       namespace: ns-demo
     spec:
       containers:
-        - name: 
+        - name: my-deploy
+          image:  registry/user/image
