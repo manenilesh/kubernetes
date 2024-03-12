@@ -12,5 +12,6 @@ spec:
     spec:
       containers:
         - name: my-pod-1
-          image: 
+          image: httpd
+          
       
