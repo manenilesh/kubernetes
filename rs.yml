@@ -11,7 +11,7 @@ spec:
         app: my-rs-1
     spec:
       containers:
-        - name: my-pod-2
+        - name: my-pod-1
           image: nginx
           ports:
             - name: nginx
