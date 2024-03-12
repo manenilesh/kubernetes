@@ -8,7 +8,7 @@ spec:
   template:
     metadata:
       labels:
-        app: my-rs-1
+        app: my-pod
     spec:
       containers:
         - name: my-pod-2
