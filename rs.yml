@@ -11,4 +11,5 @@ spec:
         app: my-pod-2
     spec:
       containers:
-        - name: my-po
+        - name: my-pod-2
+          image:  nginx
