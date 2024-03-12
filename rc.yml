@@ -14,7 +14,7 @@ spec:
         - name: my-pod-1
           image: httpd
           ports:
-          - name:  Port Name
-            port:  Port
+          - name:  http
+            port:  80
             protocol: TCP
       
