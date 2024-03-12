@@ -15,7 +15,7 @@ spec:
           image: httpd
           ports:
             - name: http
-              containerPort: 0: 80
+              containerPort: 80
               protocol: TCP
     replicas: 3
     selector:
