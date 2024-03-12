@@ -18,5 +18,5 @@ spec:
               containerPort: 80
               protocol: TCP
 replicas: 3
-      selector:
-        app: my-pod-1
+selector:
+  app: my-pod-1
