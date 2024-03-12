@@ -1,37 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deployment
-  labels:
-    app: xyz-app
-spec:
-  template:
-    metadata:
-      labels:
-        app: xyz-app
-    spec:
-      containers:
-        - name: xyz-app
-          image: nginx
-          ports:
-            - containerPort: 80
-  replicas: 3
-  selector:
-    matchLabels:
-      app: xyz-app
-  strategy:
-    type: RollingUpdate
-
-
-
-
-
-
-
-
-apiVersion: apps/v1
-kind: Deployment
-metadata:
   name: myapp
   labels:
     app: my-deploy
@@ -53,11 +22,6 @@ spec:
     replicas: 3
     selector:
       matchLabels:
+        app: my-deploy
     strategy:
       type: RollingUpdate
-
-
-
-
-
-
