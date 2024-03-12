@@ -11,5 +11,6 @@ spec:
         app: my-pod-1
     spec:
       containers:
-        - name: 
+        - name: my-pod-1
+          image:  registry
       
