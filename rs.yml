@@ -20,4 +20,4 @@ spec:
       replicas: 2
       selector:
         matchLabels:
-          app: my-p
+          app: my-pod-2
