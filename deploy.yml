@@ -22,6 +22,6 @@ spec:
       app: my-deploy-1
   strategy:
     type: rollingUpdate
+    type: RollingUpdate
       maxSurge: 1
       maxUnavailable: 1
-    type: RollingUpdate
