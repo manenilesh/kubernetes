@@ -20,4 +20,4 @@ spec:
     matchLabels:
       app: my-deploy-1
   strategy:
-    type: RollingUpdate
+    Rol
