@@ -19,6 +19,4 @@ spec:
   selector:
     matchLabels:
       app: my-deploy-1
-  strategy:
-    rollingUpdate:
-      
+  strategy: rollingUpdate
