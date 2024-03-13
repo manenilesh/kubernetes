@@ -20,7 +20,4 @@ spec:
     matchLabels:
       app: my-deploy-1
   strategy:
-    type: rollingUpdate:
-      maxSurge: 1
-      maxUnavailable: 1
     type: RollingUpdate
