@@ -3,24 +3,21 @@ kind: Deployment
 metadata:
   name: my-deployment
   labels:
-    app: my-deploy-1
+    app: xyz-app
 spec:
   template:
     metadata:
       labels:
-        app: my-deploy-1
+        app: xyz-app
     spec:
       containers:
-        - name: my-deploy-1
+        - name: xyz-app
           image: nginx
           ports:
             - containerPort: 80
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
-      app: my-deploy-1
+      app: xyz-app
   strategy:
     type: RollingUpdate
-    rollingUpdate:
-      maxSurge: 1
-      maxUnavailable: 1
